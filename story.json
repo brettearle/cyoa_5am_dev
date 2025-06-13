@@ -1,0 +1,84 @@
+{
+  "start": "1",
+  "sections": {
+    "1": {
+      "text": "You wake up in a misty forest. A chill runs down your spine.",
+      "choices": {
+        "a": { "text": "Follow a distant howl", "next": "2a" },
+        "b": { "text": "Climb a nearby tree", "next": "2b" },
+        "c": { "text": "Stay still and listen", "next": "2c" }
+      }
+    },
+
+    "2a": {
+      "text": "The howl grows louder. You spot a trail of paw prints.",
+      "choices": {
+        "a": { "text": "Follow the prints", "next": "3a" },
+        "b": { "text": "Turn back", "next": "3b" }
+      }
+    },
+    "2b": {
+      "text": "From the tree, you see a figure darting through the trees.",
+      "choices": {
+        "a": { "text": "Climb down and chase it", "next": "3c" },
+        "b": { "text": "Hide and watch", "next": "3d" }
+      }
+    },
+    "2c": {
+      "text": "You hear footsteps approaching from behind.",
+      "choices": {
+        "a": { "text": "Call out for help", "next": "3e" },
+        "b": { "text": "Quietly move toward a bush", "next": "3f" }
+      }
+    },
+
+    "3a": {
+      "text": "The trail ends at a cave. You hear breathing inside.",
+      "choices": {
+        "a": { "text": "Enter the cave", "next": "end_1" },
+        "b": { "text": "Back away slowly", "next": "end_2" }
+      }
+    },
+    "3b": {
+      "text": "You return to where you started, but the trees have shifted.",
+      "choices": {
+        "a": { "text": "Keep walking", "next": "end_2" },
+        "b": { "text": "Sit and wait", "next": "end_1" }
+      }
+    },
+    "3c": {
+      "text": "You chase the figure and discover a hidden village.",
+      "choices": {
+        "a": { "text": "Approach openly", "next": "end_3" },
+        "b": { "text": "Spy from a distance", "next": "end_2" }
+      }
+    },
+    "3d": {
+      "text": "The figure vanishes. You see smoke in the distance.",
+      "choices": {
+        "a": { "text": "Investigate the smoke", "next": "end_3" },
+        "b": { "text": "Stay hidden", "next": "end_1" }
+      }
+    },
+    "3e": {
+      "text": "A cloaked stranger responds to your call.",
+      "choices": {
+        "a": { "text": "Talk to them", "next": "end_3" },
+        "b": { "text": "Run away", "next": "end_2" }
+      }
+    },
+    "3f": {
+      "text": "The footsteps pass by. A map falls from a passing traveler.",
+      "choices": {
+        "a": { "text": "Pick it up and follow it", "next": "end_3" },
+        "b": { "text": "Leave it and stay hidden", "next": "end_1" }
+      }
+    }
+  },
+
+  "endings": {
+    "end_1": "You survive the night, but the forest keeps its secrets. You are never the same again.",
+    "end_2": "You wander endlessly. Eventually, the forest swallows you whole.",
+    "end_3": "You escape the forest and find refuge. Your story becomes legend."
+  }
+}
